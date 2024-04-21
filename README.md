@@ -9,6 +9,7 @@ The objective of this project is to develop an effective solution for denoising 
 
 ### About Dataset:-
 https://drive.google.com/file/d/1u9mskAV4bCrd3Q29H_6LRk5po1LQwTMW/view?usp=sharing 
+
 train.zip contains the images that we will train our deep learning autoencoder on. These images contain text to which noise has been added. Our aim is to build an autoencoder neural network that will denoise those images.
 test.zip contains the images that we will use to test our neural network once it has been trained. We will try to get clean images as the output by cleaning the noise from the test images.
 train_cleaned.zip contains the same images as the train images but without the noise. We will use these images as targets to train our network.
