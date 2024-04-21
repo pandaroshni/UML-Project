@@ -15,6 +15,11 @@ test.zip contains the images that we will use to test our neural network once it
 train_cleaned.zip contains the same images as the train images but without the noise. We will use these images as targets to train our network.
 We will train our autoencoder neural network on the noisy train images. While doing so, we will try to eliminate the noise by posing the clean train image as the targets. After that, when we will feed our network with the noisy test images, we should be able to get clean images as output. 
 
+### Data Description:-
+Optical Character Recognition (OCR) is the process of getting type or handwritten documents into a digitized format. If you've read a classic novel on a digital reading device or had your doctor pull up old healthcare records via the hospital computer system, you've probably benefited from OCR.
+
+OCR makes previously static content editable, searchable, and much easier to share. But, a lot of documents eager for digitization are being held back. Coffee stains, faded sun spots, dog-eared pages, and lot of wrinkles are keeping some printed documents offline and in the past. 
+
 ### About Autoencoders
 An autoencoder is a type of artificial neural network used to learn efficient data codings in an unsupervised manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore signal “noise”. Along with the reduction side, a reconstructing side is learnt, where the autoencoder tries to generate from the reduced encoding a representation as close as possible to its original input, hence its name.![image](https://github.com/pandaroshni/UML-Project/assets/112866689/1b9c1758-421d-463c-816f-4c6cdc012ac9)
 
