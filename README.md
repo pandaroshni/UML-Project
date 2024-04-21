@@ -21,10 +21,17 @@ An autoencoder is a type of artificial neural network used to learn efficient da
 ### About Librarie used
 
 -> NumPy (np): NumPy is a powerful library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently. In image denoising, NumPy is used for array manipulation and mathematical operations on pixel values.
+
 -> Pandas (pd): Pandas is a data manipulation and analysis library. It provides data structures and functions for easily handling structured data, such as tables or DataFrames. In image denoising, Pandas may be used for organizing and preprocessing image data if you're working with metadata or annotations associated with the images.
+
 -> Matplotlib.pyplot (plt): Matplotlib is a plotting library for Python. The pyplot module provides a MATLAB-like interface for creating static, interactive, and animated visualizations. In image denoising, Matplotlib is commonly used to visualize the original images, noisy images, and denoised images for analysis and evaluation.
+
 -> Zipfile: The zipfile module provides tools to create, read, write, append, and list a ZIP file. In image denoising, Zipfile could be used to handle compressed image datasets or to extract images from zip archives.
+
 -> OS: The OS module provides a way of interacting with the operating system. It offers functions for creating, removing, and managing directories, files, and paths. In image denoising, the OS module might be used to navigate directories, load image files, or save denoised images.
+
 -> CV2: OpenCV (Open Source Computer Vision Library) is a library of programming functions mainly aimed at real-time computer vision. The cv2 module in Python provides functions for image processing, manipulation, and analysis. In image denoising, OpenCV can be used for various tasks such as loading images, applying filters, and performing image enhancement techniques.
+
 -> Scikit-learn (sklearn): Scikit-learn is a machine learning library for Python. It provides simple and efficient tools for data mining and data analysis, including classification, regression, clustering, and dimensionality reduction. In image denoising, Scikit-learn may be used for preprocessing steps or for evaluating the denoising model.
+
 -> TensorFlow: TensorFlow is an open-source machine learning framework developed by Google. It provides a comprehensive ecosystem of tools, libraries, and community resources for building and deploying machine learning models, including deep learning models. In image denoising, TensorFlow is used for building, training, and evaluating deep learning models such as convolutional neural networks (CNNs) for denoising images.
