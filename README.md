@@ -14,3 +14,6 @@ train.zip contains the images that we will train our deep learning autoencoder o
 test.zip contains the images that we will use to test our neural network once it has been trained. We will try to get clean images as the output by cleaning the noise from the test images.
 train_cleaned.zip contains the same images as the train images but without the noise. We will use these images as targets to train our network.
 We will train our autoencoder neural network on the noisy train images. While doing so, we will try to eliminate the noise by posing the clean train image as the targets. After that, when we will feed our network with the noisy test images, we should be able to get clean images as output. 
+
+### About Autoencoders
+An autoencoder is a type of artificial neural network used to learn efficient data codings in an unsupervised manner. The aim of an autoencoder is to learn a representation (encoding) for a set of data, typically for dimensionality reduction, by training the network to ignore signal “noise”. Along with the reduction side, a reconstructing side is learnt, where the autoencoder tries to generate from the reduced encoding a representation as close as possible to its original input, hence its name.![image](https://github.com/pandaroshni/UML-Project/assets/112866689/1b9c1758-421d-463c-816f-4c6cdc012ac9)
