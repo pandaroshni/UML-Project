@@ -1,4 +1,4 @@
-# UML-Project
+# Image Denoising
 ## Denoise images using Autoencoders
 
 ### Problem Statement:-
